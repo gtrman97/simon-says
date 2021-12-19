@@ -42,9 +42,16 @@ main {
     grid-template-columns:  repeat(4, minmax(0, 1fr));
     grid-gap: 2.5%;
     width: 100vw;
-    height: 25vh;
+    height: 30vh;
     padding: 2.5%;
-
+}
+#container3 {
+    display: none;
+    grid-template-columns:  repeat(4, minmax(0, 1fr));
+    grid-gap: 1.5%;
+    width: 100vw;
+    height: 50vh;
+    padding: 2.5%;
 }
 .square {
     width: 100%;
