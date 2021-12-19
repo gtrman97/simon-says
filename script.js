@@ -26,20 +26,26 @@ function displayHard() {
 
 function start() {
 
-    const sqaures = document.getElementsByClassName("square"); 
-    console.log(sqaures);
+    document.getElementById("square3").style.backgroundColor += 1; 
 
-    setTimeout(() => {
+    const squares = document.getElementsByClassName("square"); 
 
-    sqaures[0].style.backgroundColor = "lightgreen";
-    sqaures[1].style.backgroundColor = "tomato";
-    sqaures[2].style.backgroundColor = "lightyellow";
-    sqaures[3].style.backgroundColor = "lightblue";
+    if(document.getElementById("container1").style.display != "none"){
 
-    // document.getElementById("square1").style.backgroundColor = "green";
+        setTimeout(() => {
+
+            let square = squares[getRandomInt(3)];
+            square.style.backgroundColor = "lightgreen";
+            // squares[1].style.backgroundColor = "tomato";
+            // squares[2].style.backgroundColor = "lightyellow";
+            // squares[3].style.backgroundColor = "lightblue";
+            setTimeout(2000); 
+            squares[getRandomInt(3)].style.backgroundColor = "lightgreen";
+        
+            }, 2000);
 
 
-    }, 2000);
+    }
 
 
 }
