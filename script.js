@@ -25,5 +25,21 @@ function displayHard() {
 }
 
 function start() {
-    
+
+    const sqaures = document.getElementsByClassName("square"); 
+    console.log(sqaures);
+
+    setTimeout(() => {
+
+    sqaures[0].style.backgroundColor = "lightgreen";
+    sqaures[1].style.backgroundColor = "tomato";
+    sqaures[2].style.backgroundColor = "lightyellow";
+    sqaures[3].style.backgroundColor = "lightblue";
+
+    // document.getElementById("square1").style.backgroundColor = "green";
+
+
+    }, 2000);
+
+
 }
