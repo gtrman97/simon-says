@@ -102,16 +102,23 @@ main {
 @media only screen and (min-width:810px){
 
     #container1 {
-        width: 75vw;
+        width: 85vw;
         height: 70vh;
     }
     #container2 {
-        width: 70vw;
-        height: 70vh;
+        width: 100vw;
+        height: 40vh;
     }
     #container3 {
-        width: 70vw;
+        width: 90vw;
         height: 80vh;
+    }
+
+    #start {
+        width: 15vw;
+        height: 7.5vh;
+        font-size: xx-large;
+        font-family: cursive;
     }
 
 
