@@ -41,6 +41,19 @@ main {
     height: 100%;
     border: solid 2px yellow;
 }
+#square1{
+    background-color: green;
+}
+#square2{
+    background-color: red;
+
+}
+#square3{
+    background-color: yellow;
+}
+#square4{
+    background-color: blue;
+}
 #start {
     width: 25%;
     height: 45%;
