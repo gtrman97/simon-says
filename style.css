@@ -18,4 +18,5 @@ body {
 }
 select {
     width: 25%;
+    text-transform: capitalize;
 }
