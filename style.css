@@ -128,3 +128,27 @@ main {
 
 
 }
+@media only screen and (min-width:1080px){
+
+    #container1 {
+        width: 65vw;
+        height: 70vh;
+    }
+    #container2 {
+        width: 80vw;
+        height: 50vh;
+    }
+    #container3 {
+        width: 70vw;
+        height: 75vh;
+    }
+
+    #start {
+        width: 15vw;
+        height: 7.5vh;
+        font-size: xx-large;
+        font-family: cursive;
+    }
+
+
+}
