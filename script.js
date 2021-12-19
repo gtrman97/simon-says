@@ -36,6 +36,8 @@ function start() {
 
             let square = squares[getRandomInt(3)];
             square.style.backgroundColor = "rgb(255, 255, 255)";
+            // square.style.backgroundColor += 1;
+
             setTimeout(() => {
                 squares[getRandomInt(3)].style.backgroundColor = "lightgreen";
             }, 350);         
