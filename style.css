@@ -9,4 +9,10 @@ body {
 }
 #navbar {
     background-color: gray;
+    height: 10%;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
