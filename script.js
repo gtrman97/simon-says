@@ -23,3 +23,7 @@ function displayHard() {
     document.getElementById("container3").style.display = "grid"; 
 
 }
+
+function start() {
+
+}
