@@ -7,9 +7,9 @@ body {
     height: 100vh;
     width: 100vw;
 }
-#navbar {
+#navbar, footer {
     background-color: gray;
-    height: 10%;
+    height: 10vh;
     text-align: center;
     list-style: none;
     display: flex;
@@ -19,4 +19,7 @@ body {
 select {
     width: 25%;
     text-transform: capitalize;
+}
+main {
+    height: 80vh;
 }
