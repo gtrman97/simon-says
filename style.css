@@ -101,6 +101,11 @@ main {
 }
 @media only screen and (min-width:810px){
 
+    #dropdown {
+        height: 5vh;
+        font-size: xx-large;
+    }
+
     #container1 {
         width: 85vw;
         height: 70vh;
