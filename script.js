@@ -26,7 +26,7 @@ function displayHard() {
 
 function start() {
 
-    document.getElementById("square3").style.backgroundColor += 1; 
+    let timePassed = 2000; 
 
     const squares = document.getElementsByClassName("square"); 
 
@@ -36,13 +36,10 @@ function start() {
 
             let square = squares[getRandomInt(3)];
             square.style.backgroundColor = "lightgreen";
-            // squares[1].style.backgroundColor = "tomato";
-            // squares[2].style.backgroundColor = "lightyellow";
-            // squares[3].style.backgroundColor = "lightblue";
-            setTimeout(2000); 
-            squares[getRandomInt(3)].style.backgroundColor = "lightgreen";
-        
-            }, 2000);
+            setTimeout(() => {
+                squares[getRandomInt(3)].style.backgroundColor = "lightgreen";
+            }, 350);         
+            }, timePassed);
 
 
     }
