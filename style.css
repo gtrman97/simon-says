@@ -22,4 +22,13 @@ select {
 }
 main {
     height: 80vh;
+    background-color: lightgray;
+}
+#start {
+    width: 25%;
+    height: 45%;
+    text-transform: capitalize;
+    background-color: rgb(51, 253, 0);
+    border-radius: 45%;
+    border: solid 2px green;
 }
