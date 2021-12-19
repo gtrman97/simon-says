@@ -61,9 +61,6 @@ main {
 #square1{
     background-color: green;
 }
-#square1:hover {
-    background-color: lightgreen;
-}
 #square2{
     background-color: red;
 
