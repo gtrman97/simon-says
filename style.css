@@ -19,6 +19,7 @@ body {
 select {
     width: 25%;
     text-transform: capitalize;
+    text-align: center;
 }
 main {
     height: 80vh;
@@ -39,6 +40,7 @@ main {
 .square {
     width: 100%;
     height: 100%;
+    border-radius: 15%;
 }
 #square1{
     background-color: green;
