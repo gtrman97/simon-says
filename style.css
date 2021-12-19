@@ -29,7 +29,7 @@ main {
     align-items: center;
     justify-content: center;
 }
-#container {
+#container1 {
     display: grid;
     grid-template-columns:  repeat(2, minmax(0, 1fr));
     grid-gap: 2.5%;
