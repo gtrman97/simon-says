@@ -93,5 +93,26 @@ main {
         width: 70vw;
         height: 80vh;
     }
+    #start {
+        width: 15vw;
+        height: 7.5vh;
+    }
     
+}
+@media only screen and (min-width:810px){
+
+    #container1 {
+        width: 75vw;
+        height: 70vh;
+    }
+    #container2 {
+        width: 70vw;
+        height: 70vh;
+    }
+    #container3 {
+        width: 70vw;
+        height: 80vh;
+    }
+
+
 }
