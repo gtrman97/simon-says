@@ -169,5 +169,8 @@ main {
         width: 50vw;
         height: 85vh;
     }
+    #dropdown{
+        width: 15vw;
+    }
 
 }
