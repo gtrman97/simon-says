@@ -57,9 +57,9 @@ function start() {
 
 }
 
-function isCorrect(this) {
+function isCorrect(event) {
 
-    console.log(this);
+    console.log(event.target);
 
 }
 
