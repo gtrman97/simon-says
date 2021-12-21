@@ -28,19 +28,20 @@ function start() {
 
     let timePassed = 2000; 
 
-    const squares = document.getElementsByClassName("square"); 
-
     if(document.getElementById("container1").style.display != "none"){
+
+        const squares = document.getElementsByClassName("board1square"); 
+        console.log(squares[0].classList[1]);
 
         setTimeout(() => {
 
             let square = squares[getRandomInt(3)];
-            square.style.backgroundColor = "rgb(255, 255, 255)";
+            square.style.backgroundColor = "white";
             // square.style.backgroundColor += 1;
 
             setTimeout(() => {
-                squares[getRandomInt(3)].style.backgroundColor = "lightgreen";
-            }, 350);         
+                square.style.backgroundColor = square.classList[1];
+            }, 250);         
             }, timePassed);
 
 
