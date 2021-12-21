@@ -42,8 +42,7 @@ function start() {
 
         setTimeout(() => {
 
-            let square = squares[getRandomInt(3)];
-            console.log(square);
+            let square = squares[getRandomInt(squares.length)];
             square.style.backgroundColor = "white";
 
             setTimeout(() => {
@@ -58,7 +57,9 @@ function start() {
 
 }
 
-function isCorrect(square) {
+function isCorrect(this) {
+
+    console.log(this);
 
 }
 
