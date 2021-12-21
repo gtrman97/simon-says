@@ -58,17 +58,17 @@ main {
     height: 100%;
     border-radius: 15%;
 }
-#square1{
+.green{
     background-color: green;
 }
-#square2{
+.red{
     background-color: red;
 
 }
-#square3{
+.yellow{
     background-color: yellow;
 }
-#square4{
+.blue{
     background-color: blue;
 }
 #start {
