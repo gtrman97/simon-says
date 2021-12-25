@@ -1,5 +1,14 @@
 let answers = [];
 let choices = [];
+let options = Array.from(document.getElementsByClassName("square"));
+
+options.forEach(function(element) {
+    element.addEventListener("click", function(){
+        choices.push(element);
+        console.log(choices[0].classList);
+    })
+})
+
 
 function displayEasy() {
 
@@ -60,7 +69,7 @@ function start() {
 
 function isCorrect(event) {
 
-    console.log(event.target);
+    // console.log(event.target.classList);
 
 }
 
