@@ -1,4 +1,5 @@
-
+let answers = [];
+let choices = [];
 
 function displayEasy() {
 
