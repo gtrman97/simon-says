@@ -36,32 +36,36 @@ function displayHard() {
 
 function start() {
 
-    let timePassed = 2000; 
-
-    let answer = true; 
-
-    // while(answer){
-
-
-
-    // }
+    let index = -1; 
 
     if(document.getElementById("container1").style.display != "none"){
 
         const squares = document.getElementsByClassName("board1square"); 
 
-        setTimeout(() => {
-
-            let square = squares[getRandomInt(squares.length)];
-            square.style.backgroundColor = "white";
+        do {
+            ++index; 
 
             setTimeout(() => {
-                square.style.backgroundColor = square.classList[1];
-            }, 250);         
-            }, timePassed);
 
-            answer = isCorrect(square);
+                let square = squares[getRandomInt(squares.length)];
+                square.style.backgroundColor = "white";
+    
+                setTimeout(() => {
+                    square.style.backgroundColor = square.classList[2];
+                }, 250);
+                
+                setTimeout(() => {
+                    // if(choices[0].classList[2] == square.classList[2]) {
+                    //     console.log("correct!");
+                    // }
+                    // else {
+                    //     console.log("incorrect!");
+                    // }
+                }, 3500);           
+    
+                }, 2000);
 
+        } while (choices[index].classList[2] == square.classList[2]);
     }
 
 
